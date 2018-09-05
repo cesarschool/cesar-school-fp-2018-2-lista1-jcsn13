@@ -13,9 +13,13 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 5")
+    cigarros_dias = int(input("Insira a quantidade de cigarros que fuma por dia: "))
+    anos = int(input("Insira a quantos anos você é fumante: "))
 
+    quantidade_cigarros = cigarros_dias*(anos*365)
+    dias_perdidos = float((quantidade_cigarros*600)/86400)
 
+    print("Você perdeu:",dias_perdidos,"dias de vida")
     
 if __name__ == '__main__':
     main()
