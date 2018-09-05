@@ -11,9 +11,15 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
+    import math
+    raio = float(input("Insira a medida do raio: "))
+    diametro = 2*raio
+    area =  math.pi*(raio**2)
+    comprimento = 2*math.pi*raio
 
+    print("diametro:",diametro)
+    print("raio:",raio)
+    print("area:",area)
 
-    
 if __name__ == '__main__':
     main()
