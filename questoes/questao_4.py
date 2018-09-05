@@ -11,9 +11,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 4")
+    dias = int(input("Insira a quantidade de dias: "))
+    km = float(input("Insira a quantidade de kms percorridos: "))
 
-
+    print("Por dias deu um total de:",60*dias)
+    print("Por kms rodados deu um total de:",0.15*km)
     
 if __name__ == '__main__':
     main()
